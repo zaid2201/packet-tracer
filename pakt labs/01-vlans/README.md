@@ -1,39 +1,64 @@
 # VLAN Configuration Lab
 
-## Overview
+## 📌 Overview
 
-This Cisco Packet Tracer lab demonstrates the configuration and use of VLANs (Virtual Local Area Networks) on Cisco switches.
+This Cisco Packet Tracer lab demonstrates how VLANs can be used to logically separate devices into different broadcast domains while using the same switching infrastructure.
 
-The purpose of the lab is to understand how VLANs can logically separate devices into different broadcast domains even when they are connected to the same physical switch infrastructure.
+The lab consists of three VLANs representing different departments:
 
-## Objectives
+- Engineering
+- HR
+- Sales
 
-- Create and configure VLANs
-- Assign switch ports to specific VLANs
-- Configure access ports
-- Understand VLAN-based network segmentation
-- Verify VLAN configuration
-- Test connectivity between devices
-- Practice basic Cisco IOS commands
+## 🎯 Objectives
 
-##  Technologies Used
+- Configure IPv4 addresses and subnet masks on PCs
+- Configure the default gateway using the last usable IP address of each subnet
+- Create three connections between the router and switch
+- Configure a separate router interface for each VLAN
+- Create and name VLANs on the switch
+- Assign switch interfaces to the correct VLANs
+- Configure interfaces connecting the switch to the router
+- Test communication between different VLANs
+- Observe broadcast traffic using Packet Tracer Simulation Mode
 
-- Cisco Packet Tracer
-- Cisco IOS
-- Ethernet Switching
-- VLANs
-- IPv4 Networking
+## ⚙️ Lab Tasks
 
-##  Basic VLAN Configuration
+### 1. Configure the PCs
 
-Example VLAN creation:
+Configure the correct:
+
+- IP address
+- Subnet mask
+- Default gateway
+
+The **last usable IP address of each subnet** is used as the default gateway.
+
+### 2. Configure R1
+
+Create three physical connections between **R1** and **SW1**.
+
+Configure one router interface for each VLAN.
+
+Each router interface should use the same gateway IP address that was configured as the default gateway on the PCs in that VLAN.
+
+### 3. Configure VLANs on SW1
+
+Create and name the following VLANs:
+
+- Engineering
+- HR
+- Sales
+
+Assign the appropriate switch interfaces to their respective VLANs.
+
+The switch interfaces connecting to R1 must also be placed in the appropriate VLAN.
+
+### 4. Test Connectivity
+
+Use `ping` to verify connectivity between PCs.
+
+Example:
 
 ```bash
-enable
-configure terminal
-
-vlan 10
-name VLAN10
-
-vlan 20
-name VLAN20
+ping <destination-ip>
