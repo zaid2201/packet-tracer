@@ -1,4 +1,4 @@
-# 🌐 Cisco Packet Tracer Labs
+#  Cisco Packet Tracer Labs
 
 Hands-on Cisco Packet Tracer labs covering **CCNA networking concepts, routing, switching, network configuration, troubleshooting, and network security**.
 
@@ -6,7 +6,7 @@ This repository documents my practical networking experience using Cisco Packet 
 
 ---
 
-## 🎯 Purpose
+# Purpose
 
 The purpose of this repository is to develop and demonstrate practical networking skills through hands-on Cisco labs.
 
@@ -14,7 +14,7 @@ These labs focus on configuring, testing, verifying, and troubleshooting network
 
 ---
 
-## 🧪 Labs
+## Labs
 
 ### 🔹 Static LAN
 Building and configuring a basic Local Area Network.
@@ -231,7 +231,7 @@ Each lab folder contains the **Packet Tracer lab file** and a dedicated **README
 
 ---
 
-## 📈 Learning Goals
+##  Learning Goals
 
 Through these labs, I aim to strengthen my practical understanding of:
 
@@ -248,13 +248,13 @@ Through these labs, I aim to strengthen my practical understanding of:
 
 ---
 
-## 📚 Certification Focus
+##  Certification Focus
 
 These labs are primarily based on concepts covered in the **Cisco CCNA (200-301)** curriculum and are intended to strengthen networking fundamentals relevant to **cybersecurity and cloud security**.
 
 ---
 
-## 👤 Author
+##  Author
 
 **Mohammed Zaid Baig**
 
